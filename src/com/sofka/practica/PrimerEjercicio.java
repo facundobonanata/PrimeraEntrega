@@ -8,9 +8,9 @@ public static void main(String[] args){
     System.out.println("Ingrese su nombre: ");
     String user = captura.nextLine();
     System.out.println("Ingrese su edad: ");
-    String edad = captura.nextLine();
+    int edad = Integer.parseInt(captura.nextLine());
     System.out.println("Igrese su numero de celular: ");
-    String cel = captura.nextLine();
+    int cel = Integer.parseInt(captura.nextLine());
     System.out.println("Bienvenido señor " + user + ", es un placer para nosotros contar con una persona de " + edad + " años.\n" + "Próximamente nos comunicaremos con usted al numero "+cel+".\n"+
 "Feliz dia.");
 
